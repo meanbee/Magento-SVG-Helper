@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Meanbee_Svg>
+            <version>0.0.1</version>
+        </Meanbee_Svg>
+    </modules>
+    <global>
+        <helpers>
+            <meanbee_svg>
+                <class>Meanbee_Svg_Helper</class>
+            </meanbee_svg>
+        </helpers>
+    </global>
+</config>
