@@ -12,6 +12,3 @@ Load helper, pass in relative directory path to `getSkinSvg()` or `getMediaSvg()
  
 ![Code Example](docs/svg_helper_usage.png)
 
-## TODO
-
-Work in skin theme inheritance if file unavailable.

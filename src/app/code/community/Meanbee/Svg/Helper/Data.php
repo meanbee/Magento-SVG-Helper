@@ -1,6 +1,6 @@
 <?php
 
-class Meanbee_Svg_Helper_Data extends Mage_Core_Helper_Abstract 
+class Meanbee_Svg_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
     /**
@@ -10,9 +10,11 @@ class Meanbee_Svg_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function getSkinSvg($path)
     {
-        $path = Mage::getDesign()->getSkinBaseDir() . DS . $path;
+        $params = array('_type' => 'skin');
 
-        return $this->_getSvg($path);
+        $filepath = Mage::getDesign()->getFilename($path, $params);
+
+        return $this->_getSvg($filepath);
     }
 
     /**
